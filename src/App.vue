@@ -1,11 +1,13 @@
 <template>
   <nav class="bg-heroColor">
     <div class="flex justify-between items-center mx-auto p-10">
-      <h1 class="text-4xl">Fashioncity</h1>
+      <h1 class="text-4xl">StoreCity</h1>
       <div class="flex items-center gap-3">
-        <router-link class="text-xl" to="/">Clothes</router-link>
-        <router-link class="text-xl" to="/about">Shoes</router-link>
-        <router-link class="text-xl" to="/about">Electronics</router-link>
+        <router-link class="text-xl max-nav:hidden" to="/">Clothes</router-link>
+        <router-link class="text-xl max-nav:hidden" to="/about">Shoes</router-link>
+        <router-link class="text-xl max-md:hidden" to="/about"
+          >Electronics</router-link
+        >
         <router-link class="text-xl max-lg:hidden" to="/about"
           >Furniture
         </router-link>

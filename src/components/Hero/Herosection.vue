@@ -1,9 +1,9 @@
 <template>
   <section class="bg-heroColor">
     <div
-      class="flex justify-between items-start mx-auto p-10 border-solid border-2 border-indigo-600 max-lg:flex-col items-center max-lg:text-center"
+      class="flex justify-between items-start mx-auto p-10 max-lg:flex-col items-center max-lg:text-center"
     >
-      <div class="relative w-1/3 mt-10 max-lg:w-full">
+      <div class="relative w-1/3 max-lg:w-full">
         <div class="relative z-10">
           <h1 class="text-5xl font-bold leading-snug">
             Find The Best Fashion Style For You.

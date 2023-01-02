@@ -1,7 +1,7 @@
 <template>
-  <div class="flex items-start justify-around mt-36">
-    <div class="w-1/3">
-      <h1 class="text-5xl font-bold w-2/3">Best Seller Product</h1>
+  <div class="flex gap-5 mt-36 max-lg:flex-col-reverse text-center">
+    <div class="w-full max-lg:w-full">
+      <h1 class="text-5xl text-center font-bold max-lg:w-full">Best Seller Product</h1>
       <p class="leading-8 text-xl my-5">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima atque a
         id repellat, perspiciatis vero alias illo placeat cupiditate, ut
@@ -17,9 +17,11 @@
         SEE MORE
       </button>
     </div>
-    <img class="" src="../../assets/sweat.svg" alt="" />
-    <img class="" src="../../assets/pantalon.svg" alt="" />
-  </div>
+    <div class="flex gap-5 max-w-full h-auto max-lg:justify-center w-full" >
+    <img class="max-w-full h-auto" src="../../assets/sweat.svg" alt="" />
+    <img class="max-w-full h-auto  max-md: hidden" src="../../assets/pantalon.svg" alt="" />
+    </div>
+</div>
 </template>
 
 <script>

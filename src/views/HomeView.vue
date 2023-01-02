@@ -5,6 +5,9 @@
     <Bestfashion />
     <Seller />
     <Product />
+    <Deal/>
+    <Testimonial/>
+    <Footer/>
   </div>
 </template>
 
@@ -14,6 +17,9 @@ import Collection from "../components/Collections/Collection.vue";
 import Bestfashion from "../components/Fashion/Best.vue";
 import Seller from "../components/Seller/Seller.vue";
 import Product from "../components/Products/Products.vue";
+import Deal from '../components/Deal/Deal.vue'
+import Testimonial from '../components/Testimonials/Testimonial.vue'
+import Footer from '../components/Footer/Footer.vue'
 import axios from "axios";
 
 export default {
@@ -24,24 +30,9 @@ export default {
     Bestfashion,
     Seller,
     Product,
+    Deal,
+    Testimonial,
+    Footer,
   },
-  // data() {
-  //   return {
-  //     stores: [],
-  //     errors: [],
-  //   };
-  // },
-  // async mounted() {
-  //   await axios
-  //     .get(`https://api.escuelajs.co/api/v1/categories/1/products`)
-  //     .then((res) => {
-  //       this.stores = res.data;
-  //       console.log(this.stores);
-  //     })
-  //     .catch((e) => {
-  //       console.log(this.errors.push(e));
-  //     });
-  // },
-  // setup() {},
 };
 </script>

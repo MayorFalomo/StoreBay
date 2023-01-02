@@ -7,10 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13",
+    "moment": "^2.29.4",
+    "vue": "^3.2.45",
     "vue-axios": "^3.5.2",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vuejs-countdown": "^0.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
