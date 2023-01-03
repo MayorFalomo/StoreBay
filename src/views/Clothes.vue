@@ -1,6 +1,6 @@
 <template>
 <div v-if="stores.length" >
-  <div class="grid grid-cols-3 gap-4 justify-items-center my-16 max-md:grid-cols-2">
+  <div class="grid grid-cols-3 gap-4 justify-items-center my-16 max-md:grid-cols-2 max-sm:grid-cols-1">
     <div v-for="store in stores" :key="store.category.id" class="max-w-xl h-auto"  >
       <img :src="store.images[0]" alt="img"/>
         <p class="text-center text-2xl font-bold mt-3 ">{{store.price}}</p>

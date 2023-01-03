@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-heroColor">
     <div class="flex justify-between items-center mx-auto p-10">
-      <h1 class="text-4xl">StoreCity</h1>
+      <h1 class="text-4xl">StoreBay</h1>
       <div class="flex items-center gap-3">
         <router-link class="text-xl max-nav:hidden" to="/">Home</router-link>
         <router-link class="text-xl max-nav:hidden" to="/clothes">Clothes</router-link>
@@ -19,9 +19,9 @@
         >
           Login
         </button>
-        <button class="text-xl shadow-lg p-4 rounded-xl bg-btnColor">
+        <router-link to="/" ><button class="text-xl shadow-lg p-4 rounded-xl bg-btnColor">
           Sign Up
-        </button>
+        </button></router-link>
       </div>
     </div>
   </nav>
