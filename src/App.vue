@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-heroColor">
     <div class="flex justify-between items-center mx-auto p-10">
-      <h1 class="text-4xl">StoreBay</h1>
+      <router-link to="/" ><h1 class="text-4xl">StoreBay</h1></router-link>
       <div class="flex items-center gap-3">
         <router-link class="text-xl max-nav:hidden" to="/">Home</router-link>
         <router-link class="text-xl max-nav:hidden" to="/clothes">Clothes</router-link>
