@@ -9,7 +9,7 @@
             Find The Best Fashion Style For You.
           </h1>
           <p class="text-xl font-bold leading-8 my-5">
-            FashionCity aims at bringing out the best in you by providing
+            StoreCity aims at bringing out the best in you by providing
             luxuriously styled comfortable clothes fitted to your every
             exquisite taste and giving you a superior fashion sense and
             confidence.
