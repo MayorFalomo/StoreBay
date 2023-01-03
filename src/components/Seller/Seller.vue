@@ -12,7 +12,7 @@
         illo molestiae, nihil maiores corrupti minus fugiat ipsa!
       </p>
       <button
-        class="py-4 px-12 bg-black text-white shadow-xl rounded-xl text-xl"
+        class="hover:bg-white hover:text-black hover:border-solid border-2 border-black py-4 px-12 bg-black text-white shadow-xl rounded-xl text-xl"
       >
         SEE MORE
       </button>

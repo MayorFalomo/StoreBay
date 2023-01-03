@@ -6,7 +6,7 @@
       <div class="relative z-10">
         <img class="relative z-0" src="../../assets/sweater.svg" alt="img" />
         <router-link to="/clothes" ><button
-          class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
+          class="absolute bottom-10 text-xl left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Clothes
         </button></router-link>
@@ -18,7 +18,7 @@
           alt="img"
         />
         <router-link to="furniture" ><button
-          class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
+          class="absolute bottom-10 text-xl left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Furniture
         </button></router-link>
@@ -30,7 +30,7 @@
           alt="img"
         />
         <router-link to="/shoes" ><button
-          class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
+          class="absolute bottom-10 text-xl left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Sneakers
         </button></router-link>

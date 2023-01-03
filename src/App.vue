@@ -3,23 +3,23 @@
     <div class="flex justify-between items-center mx-auto p-10">
       <router-link to="/" ><h1 class="text-4xl">StoreBay</h1></router-link>
       <div class="flex items-center gap-3">
-        <router-link class="text-xl max-nav:hidden" to="/">Home</router-link>
-        <router-link class="text-xl max-nav:hidden" to="/clothes">Clothes</router-link>
-        <router-link class="text-xl max-nav:hidden" to="/shoes">Shoes</router-link>
-        <router-link class="text-xl max-lg:hidden" to="/furniture"
+        <router-link class="hover:text-hover text-xl max-nav:hidden" to="/">Home</router-link>
+        <router-link class="hover:text-hover text-xl max-nav:hidden" to="/clothes">Clothes</router-link>
+        <router-link class="hover:text-hover text-xl max-nav:hidden" to="/shoes">Shoes</router-link>
+        <router-link class="hover:text-hover text-xl max-lg:hidden" to="/furniture"
           >Furniture
         </router-link>
-        <router-link class="text-xl max-lg:hidden" to="/others"
+        <router-link class="hover:text-hover text-xl max-lg:hidden" to="/others"
           >Others</router-link
         >
       </div>
       <div class="flex gap-3">
         <button 
-          class="text-xl border-none shadow-lg p-4 rounded-xl bg-heroColor max-sm:hidden"
+          class="hover:bg-btnColor text-xl border-none shadow-lg p-3 rounded-xl bg-heroColor max-sm:hidden"
         >
           Login
         </button>
-        <router-link to="/" ><button class="text-xl shadow-lg p-4 rounded-xl bg-btnColor">
+        <router-link to="/" ><button class="hover:bg-heroColor text-xl shadow-lg p-3 rounded-xl bg-btnColor">
           Sign Up
         </button></router-link>
       </div>

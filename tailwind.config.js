@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         btnColor: "#FCC776",
         heroColor: "#FAE3B6",
+        hover: "#fff",
+        hoverBtn: "#fff",
       },
       fontFamily: {
         "press-start": ['"Press Start 2P"', "cursive"],
