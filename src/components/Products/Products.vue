@@ -7,11 +7,12 @@
       <li class="cursor-pointer text-xl" @click="handleClick(2)">Watches</li>
       <li class="cursor-pointer text-xl" @click="handleClick(3)">Furniture</li>
     </ul>
-    <div class="grid grid-cols-3 gap-5 max-md:grid-cols-2 ">
+    <div class="grid grid-cols-3 justify-items-center mx-auto gap-5 max-md:grid-cols-2 ">
       <div  v-for="item in stores.slice(0, seeMore)" :key="item.category.id" >
         <div class="max-w-xl h-auto">
           <img :src="item.images[0]" alt="img" />
         </div>
+        <p class="text-center text-2xl font-bold" >${{item.price}}</p>
       </div>
      
     </div>
@@ -24,22 +25,15 @@
         See More
       </button>
       </div>
-    <!-- <Clothes />
-    <Shoes /> -->
   </div>
 </template>
 
 <script>
 import { computed, ref, watch } from "vue";
-
-import Clothes from "../Products/Clothes.vue";
-import Shoes from "../Products/Shoes.vue";
 import axios from "axios";
 
 export default {
   components: {
-    Clothes,
-    Shoes,
   },
   props: [],
   data() {
@@ -62,6 +56,7 @@ export default {
           this.initialStore = res.data;
           this.stores = this.initialStore
           console.log("The see More", this.seeMore);
+          // console.log(this.stores);
           // Slice 9 out of the stores array, start from 0 to 9.
         })
         .catch((e) => {

@@ -5,11 +5,11 @@
     <div class="relative flex items-start justify-evenly flex-wrap gap-12">
       <div class="relative z-10">
         <img class="relative z-0" src="../../assets/sweater.svg" alt="img" />
-        <button
+        <router-link to="/clothes" ><button
           class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Clothes
-        </button>
+        </button></router-link>
       </div>
       <div class="relative">
         <img
@@ -17,11 +17,11 @@
           src="../../assets/chair.svg"
           alt="img"
         />
-        <button
+        <router-link to="furniture" ><button
           class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Furniture
-        </button>
+        </button></router-link>
       </div>
       <div class="relative">
         <img
@@ -29,11 +29,11 @@
           src="../../assets/sneaker.svg"
           alt="img"
         />
-        <button
+        <router-link to="/shoes" ><button
           class="absolute bottom-10 left-0 right-0 w-1/2 px-5 py-3 rounded-full ml-auto mr-auto z-10 bg-white shadow-lg"
         >
           Sneakers
-        </button>
+        </button></router-link>
       </div>
       <img
         class="absolute -right-0 -bottom-20 -z-10"

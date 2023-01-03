@@ -19,7 +19,7 @@
     </div>
     <div class="flex gap-5 max-w-full h-auto max-lg:justify-center w-full" >
     <img class="max-w-full h-auto" src="../../assets/sweat.svg" alt="" />
-    <img class="max-w-full h-auto  max-md: hidden" src="../../assets/pantalon.svg" alt="" />
+    <img class="max-w-full h-auto  max-md:hidden" src="../../assets/pantalon.svg" alt="" />
     </div>
 </div>
 </template>

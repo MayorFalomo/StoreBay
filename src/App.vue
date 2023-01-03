@@ -3,21 +3,19 @@
     <div class="flex justify-between items-center mx-auto p-10">
       <h1 class="text-4xl">StoreCity</h1>
       <div class="flex items-center gap-3">
-        <router-link class="text-xl max-nav:hidden" to="/">Clothes</router-link>
-        <router-link class="text-xl max-nav:hidden" to="/about">Shoes</router-link>
-        <router-link class="text-xl max-md:hidden" to="/about"
-          >Electronics</router-link
-        >
-        <router-link class="text-xl max-lg:hidden" to="/about"
+        <router-link class="text-xl max-nav:hidden" to="/">Home</router-link>
+        <router-link class="text-xl max-nav:hidden" to="/clothes">Clothes</router-link>
+        <router-link class="text-xl max-nav:hidden" to="/shoes">Shoes</router-link>
+        <router-link class="text-xl max-lg:hidden" to="/furniture"
           >Furniture
         </router-link>
-        <router-link class="text-xl max-lg:hidden" to="/about"
+        <router-link class="text-xl max-lg:hidden" to="/others"
           >Others</router-link
         >
       </div>
       <div class="flex gap-3">
-        <button
-          class="text-xl border-none shadow-lg p-4 rounded-xl bg-heroColor"
+        <button 
+          class="text-xl border-none shadow-lg p-4 rounded-xl bg-heroColor max-sm:hidden"
         >
           Login
         </button>
@@ -29,6 +27,7 @@
   </nav>
   <router-view />
 </template>
+
 
 <style>
 #app {

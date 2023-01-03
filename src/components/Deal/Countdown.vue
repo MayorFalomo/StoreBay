@@ -12,7 +12,11 @@
     <h1 class="text-3xl font-bold">{{ remaining.minutes.toFixed(0) }} </h1>
     <p>Minute</p>
     </div>
-  </div>  
+    <div class="flex flex-col text-center bg-white p-3" >
+    <h1 class="text-3xl font-bold">{{ remaining.seconds.toFixed(0) }} </h1>
+    <p>Seconds</p>
+    </div>
+  </div>
 </template>
 
 <script>
