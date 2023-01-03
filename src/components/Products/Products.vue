@@ -19,7 +19,7 @@
      <div class="mx-auto" >
         <button v-if="seeMore == 18"  @click="handleSeeLess(6)" class="flex justify-center mx-auto py-4 px-10 my-3 bg-black text-white shadow-xl rounded-xl" >See Less</button>
       <button v-else
-        class="flex justify-center mx-auto py-4 px-10 my-5 text-xl bg-black text-white shadow-xl rounded-xl"
+        class="hover:text-black hover:bg-white hover:border-solid border-2 border-black flex justify-center mx-auto py-4 px-10 my-5 text-xl bg-black text-white shadow-xl rounded-xl"
         @click="handleSeeMore(18)"
       >
         See More
