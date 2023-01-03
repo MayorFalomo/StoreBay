@@ -2,7 +2,7 @@
   <div class="bg-black text-white p-28" >
     <div class="flex gap-8 items-center justify-center flex-wrap mb-3" >
     <router-link class="text-2xl hover:text-btnColor " to="/">Home</router-link>
-    <router-link class="text-2xl hover:text-btnColor" to="/">Clothes</router-link>
+    <router-link class="text-2xl hover:text-btnColor" to="/clothes">Clothes</router-link>
         <router-link class="text-2xl hover:text-btnColor" to="/shoes">Shoes</router-link>
         <router-link class="text-2xl hover:text-btnColor" to="/electronics">Electronics</router-link>
         <router-link class="text-2xl hover:text-btnColor" to="/furniture">Furniture</router-link>
